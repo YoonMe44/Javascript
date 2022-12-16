@@ -1,5 +1,4 @@
 (function(){
-
     let calcScreen = document.querySelector('.screen');
     let numButton = document.querySelectorAll('.btn');
     let equalSign = document.querySelector('.btn-grey');
@@ -11,7 +10,6 @@
         calcScreen.value += results;
        });
     });
-
     equalSign.addEventListener('click', function(e){
         
         if(calcScreen.value == ' '){
