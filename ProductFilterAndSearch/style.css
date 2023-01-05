@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    /* background-image: url(images/bgImages.jpg); */
+    background-repeat: no-repeat;
+  background-size: cover;
+    /* background-color: #f5f8ff; */
+}
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    display: -webkit-inline-box;
+}
+#search-container {
+    width: 50%;
+    margin: 1em;
+    float: left;
+}
+#search-container input{
+    background-color: transparent;
+    width: 80%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+#search-container input:focus{
+    border-bottom-color: #9f2118;
+}
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #9f2118;
+    color: #fff;
+    /* color: #fff; */
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+
+}
+#title {
+    width: 41%;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+#title .ttl-text {
+    font-size: 64px;
+    font-family: "Sofia", sans-serif;
+    color: #d1c6c6;
+    text-shadow: 3px 3px #000000a3;
+}
+div#buttons {
+    padding: 1em;
+}
+.button-value{
+    /* border: 2px solid #9f2118; */
+    font-size: 15px;
+    padding: 1em 2.2em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    transition: 0.8s;
+}
+/* .button-value:hover{
+    text-decoration-line: overline;
+    background-color: #9f2118;
+    color: #fff;
+} */
+.active{
+    background-color: #9f2118;
+    color: #fff;
+    text-decoration-line: overline;
+}
+#products{
+    display: -webkit-inline-box;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+}
+.card{
+    background-color: #fff;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+.image-container{
+    text-align: center;
+}
+img{
+     max-width:100% ;
+     object-fit: contain;
+     height: 15em;
+}
+.container {
+    padding: 12px 0px;
+    font-weight: bolder;
+}
+.hide{
+    display: none;
+}
+.prev{
+    position: absolute;
+    top: 390px;
+    left: 10px;
+}
+.next{
+position: absolute;
+    top: 390px;
+    right: 10px;
+}
